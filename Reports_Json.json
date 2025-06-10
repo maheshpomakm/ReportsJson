@@ -1,0 +1,89 @@
+{
+    "order": [
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591717"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591717_1748314046455"
+            },
+            "table": {
+                "isString": false,
+                "content": "5"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Test_T1747158591717_1748237885206"
+                },
+                {
+                    "isString": true,
+                    "content": "Test123_T1747158591717_1748280837810"
+                }
+            ],
+            "quantity": {
+                "Test_T1747158591717_1748237885206": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Test123_T1747158591717_1748280837810": {
+                    "isString": false,
+                    "content": "9"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "1,119"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591717"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591717_1748316186383"
+            },
+            "table": {
+                "isString": false,
+                "content": "6"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Test123_T1747158591717_1748280837810"
+                },
+                {
+                    "isString": true,
+                    "content": "Test_T1747158591717_1748237885206"
+                }
+            ],
+            "quantity": {
+                "Test_T1747158591717_1748237885206": {
+                    "isString": false,
+                    "content": "8"
+                },
+                "Test123_T1747158591717_1748280837810": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "219"
+            }
+        }
+    ],
+    "client": {}
+}
