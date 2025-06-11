@@ -1,0 +1,481 @@
+{
+    "order": [
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591717"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591717_1748314046455"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-15"
+            },
+            "table": {
+                "isString": false,
+                "content": "5"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Burger_Classic"
+                },
+                {
+                    "isString": true,
+                    "content": "Coffee_Latte"
+                }
+            ],
+            "quantity": {
+                "Burger_Classic": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Coffee_Latte": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "35"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591718"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591718_1748316186383"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-18"
+            },
+            "table": {
+                "isString": false,
+                "content": "3"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Pizza_Margherita"
+                },
+                {
+                    "isString": true,
+                    "content": "Salad_Caesar"
+                }
+            ],
+            "quantity": {
+                "Pizza_Margherita": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Salad_Caesar": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "42"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591719"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591719_1748320987654"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-22"
+            },
+            "table": {
+                "isString": false,
+                "content": "8"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Steak_Ribeye"
+                }
+            ],
+            "quantity": {
+                "Steak_Ribeye": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "28"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591720"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591720_1748325678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-25"
+            },
+            "table": {
+                "isString": false,
+                "content": "12"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Tacos_Beef"
+                },
+                {
+                    "isString": true,
+                    "content": "Nachos_Loaded"
+                },
+                {
+                    "isString": true,
+                    "content": "Smoothie_Berry"
+                }
+            ],
+            "quantity": {
+                "Tacos_Beef": {
+                    "isString": false,
+                    "content": "3"
+                },
+                "Nachos_Loaded": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Smoothie_Berry": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "59"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591721"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591721_1748330123456"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-28"
+            },
+            "table": {
+                "isString": false,
+                "content": "7"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Sushi_Roll"
+                },
+                {
+                    "isString": true,
+                    "content": "Ramen_Spicy"
+                }
+            ],
+            "quantity": {
+                "Sushi_Roll": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Ramen_Spicy": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "61"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591722"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591722_1748334567890"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-02"
+            },
+            "table": {
+                "isString": false,
+                "content": "15"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Chicken_Grilled"
+                },
+                {
+                    "isString": true,
+                    "content": "Wrap_Veggie"
+                }
+            ],
+            "quantity": {
+                "Chicken_Grilled": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Wrap_Veggie": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "26"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591723"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591723_1748339012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-05"
+            },
+            "table": {
+                "isString": false,
+                "content": "4"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Fish_Salmon"
+                },
+                {
+                    "isString": true,
+                    "content": "Pasta_Carbonara"
+                },
+                {
+                    "isString": true,
+                    "content": "Juice_Orange"
+                }
+            ],
+            "quantity": {
+                "Fish_Salmon": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Pasta_Carbonara": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Juice_Orange": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "44"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591724"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591724_1748343456789"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-08"
+            },
+            "table": {
+                "isString": false,
+                "content": "11"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Wings_Buffalo"
+                },
+                {
+                    "isString": true,
+                    "content": "Quesadilla_Cheese"
+                }
+            ],
+            "quantity": {
+                "Wings_Buffalo": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Quesadilla_Cheese": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "37"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591725"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591725_1748347890123"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-12"
+            },
+            "table": {
+                "isString": false,
+                "content": "9"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Soup_Tomato"
+                },
+                {
+                    "isString": true,
+                    "content": "Sandwich_Club"
+                }
+            ],
+            "quantity": {
+                "Soup_Tomato": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Sandwich_Club": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "21"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591726"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591726_1748352234567"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-15"
+            },
+            "table": {
+                "isString": false,
+                "content": "18"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Curry_Chicken"
+                },
+                {
+                    "isString": true,
+                    "content": "Coffee_Latte"
+                },
+                {
+                    "isString": true,
+                    "content": "Smoothie_Berry"
+                }
+            ],
+            "quantity": {
+                "Curry_Chicken": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Coffee_Latte": {
+                    "isString": false,
+                    "content": "3"
+                },
+                "Smoothie_Berry": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "52"
+            }
+        }
+    ],
+    "client": {}
+}
