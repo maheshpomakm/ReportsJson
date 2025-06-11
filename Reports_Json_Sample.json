@@ -475,6 +475,4924 @@
                 "isString": true,
                 "content": "52"
             }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591727"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591727_1748356578901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-11"
+            },
+            "table": {
+                "isString": false,
+                "content": "6"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Burger_Cheese"
+                },
+                {
+                    "isString": true,
+                    "content": "Fries_Regular"
+                }
+            ],
+            "quantity": {
+                "Burger_Cheese": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Fries_Regular": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "18"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591728"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591728_1748360912345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-11"
+            },
+            "table": {
+                "isString": false,
+                "content": "14"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Pizza_Pepperoni"
+                },
+                {
+                    "isString": true,
+                    "content": "Soda_Cola"
+                }
+            ],
+            "quantity": {
+                "Pizza_Pepperoni": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Soda_Cola": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "22"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591729"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591729_1748365234567"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-10"
+            },
+            "table": {
+                "isString": false,
+                "content": "2"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Salad_Green"
+                },
+                {
+                    "isString": true,
+                    "content": "Water_Sparkling"
+                }
+            ],
+            "quantity": {
+                "Salad_Green": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Water_Sparkling": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "14"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591730"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591730_1748369567890"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-09"
+            },
+            "table": {
+                "isString": false,
+                "content": "16"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Steak_Sirloin"
+                },
+                {
+                    "isString": true,
+                    "content": "Wine_Red"
+                }
+            ],
+            "quantity": {
+                "Steak_Sirloin": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Wine_Red": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "45"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591731"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591731_1748373890123"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-08"
+            },
+            "table": {
+                "isString": false,
+                "content": "1"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Pancakes_Blueberry"
+                },
+                {
+                    "isString": true,
+                    "content": "Coffee_Black"
+                }
+            ],
+            "quantity": {
+                "Pancakes_Blueberry": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Coffee_Black": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "16"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591732"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591732_1748378123456"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-07"
+            },
+            "table": {
+                "isString": false,
+                "content": "10"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Chicken_Fried"
+                },
+                {
+                    "isString": true,
+                    "content": "Mashed_Potatoes"
+                },
+                {
+                    "isString": true,
+                    "content": "Tea_Iced"
+                }
+            ],
+            "quantity": {
+                "Chicken_Fried": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Mashed_Potatoes": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Tea_Iced": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "31"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591733"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591733_1748382456789"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-06"
+            },
+            "table": {
+                "isString": false,
+                "content": "13"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Fish_Cod"
+                },
+                {
+                    "isString": true,
+                    "content": "Rice_Pilaf"
+                }
+            ],
+            "quantity": {
+                "Fish_Cod": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Rice_Pilaf": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "27"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591734"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591734_1748386789012"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-05"
+            },
+            "table": {
+                "isString": false,
+                "content": "19"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Lobster_Roll"
+                },
+                {
+                    "isString": true,
+                    "content": "Champagne_Bottle"
+                }
+            ],
+            "quantity": {
+                "Lobster_Roll": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Champagne_Bottle": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "89"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591735"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591735_1748391012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-04"
+            },
+            "table": {
+                "isString": false,
+                "content": "8"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Ribs_BBQ"
+                },
+                {
+                    "isString": true,
+                    "content": "Coleslaw"
+                }
+            ],
+            "quantity": {
+                "Ribs_BBQ": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Coleslaw": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "34"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591736"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591736_1748395345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-03"
+            },
+            "table": {
+                "isString": false,
+                "content": "22"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Omelet_Cheese"
+                },
+                {
+                    "isString": true,
+                    "content": "Toast_Wheat"
+                },
+                {
+                    "isString": true,
+                    "content": "Juice_Apple"
+                }
+            ],
+            "quantity": {
+                "Omelet_Cheese": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Toast_Wheat": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Juice_Apple": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "19"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591737"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591737_1748399678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-02"
+            },
+            "table": {
+                "isString": false,
+                "content": "17"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Lasagna_Meat"
+                },
+                {
+                    "isString": true,
+                    "content": "Bread_Garlic"
+                }
+            ],
+            "quantity": {
+                "Lasagna_Meat": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Bread_Garlic": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "26"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591738"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591738_1748404012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-01"
+            },
+            "table": {
+                "isString": false,
+                "content": "25"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Duck_Roasted"
+                },
+                {
+                    "isString": true,
+                    "content": "Vegetables_Grilled"
+                },
+                {
+                    "isString": true,
+                    "content": "Wine_White"
+                }
+            ],
+            "quantity": {
+                "Duck_Roasted": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Vegetables_Grilled": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Wine_White": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "67"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591739"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591739_1748408345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-30"
+            },
+            "table": {
+                "isString": false,
+                "content": "21"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Shrimp_Scampi"
+                },
+                {
+                    "isString": true,
+                    "content": "Pasta_Angel"
+                }
+            ],
+            "quantity": {
+                "Shrimp_Scampi": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Pasta_Angel": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "38"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591740"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591740_1748412678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-28"
+            },
+            "table": {
+                "isString": false,
+                "content": "11"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Burger_Bacon"
+                },
+                {
+                    "isString": true,
+                    "content": "Onion_Rings"
+                },
+                {
+                    "isString": true,
+                    "content": "Milkshake_Vanilla"
+                }
+            ],
+            "quantity": {
+                "Burger_Bacon": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Onion_Rings": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Milkshake_Vanilla": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "48"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591741"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591741_1748417012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-25"
+            },
+            "table": {
+                "isString": false,
+                "content": "7"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Chicken_Teriyaki"
+                },
+                {
+                    "isString": true,
+                    "content": "Rice_Steamed"
+                }
+            ],
+            "quantity": {
+                "Chicken_Teriyaki": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Rice_Steamed": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "24"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591742"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591742_1748421345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-22"
+            },
+            "table": {
+                "isString": false,
+                "content": "15"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Pork_Chops"
+                },
+                {
+                    "isString": true,
+                    "content": "Applesauce"
+                }
+            ],
+            "quantity": {
+                "Pork_Chops": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Applesauce": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "36"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591743"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591743_1748425678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-20"
+            },
+            "table": {
+                "isString": false,
+                "content": "3"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Crab_Cakes"
+                },
+                {
+                    "isString": true,
+                    "content": "Salad_Spinach"
+                },
+                {
+                    "isString": true,
+                    "content": "Lemon_Water"
+                }
+            ],
+            "quantity": {
+                "Crab_Cakes": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Salad_Spinach": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Lemon_Water": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "54"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591744"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591744_1748430012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-18"
+            },
+            "table": {
+                "isString": false,
+                "content": "9"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Lamb_Chops"
+                },
+                {
+                    "isString": true,
+                    "content": "Mint_Sauce"
+                }
+            ],
+            "quantity": {
+                "Lamb_Chops": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Mint_Sauce": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "42"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591745"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591745_1748434345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-15"
+            },
+            "table": {
+                "isString": false,
+                "content": "14"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Turkey_Club"
+                },
+                {
+                    "isString": true,
+                    "content": "Chips_Kettle"
+                },
+                {
+                    "isString": true,
+                    "content": "Pickle_Dill"
+                }
+            ],
+            "quantity": {
+                "Turkey_Club": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Chips_Kettle": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Pickle_Dill": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "17"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591746"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591746_1748438678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-12"
+            },
+            "table": {
+                "isString": false,
+                "content": "23"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Beef_Stew"
+                },
+                {
+                    "isString": true,
+                    "content": "Bread_Crusty"
+                }
+            ],
+            "quantity": {
+                "Beef_Stew": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Bread_Crusty": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "23"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591747"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591747_1748443012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-10"
+            },
+            "table": {
+                "isString": false,
+                "content": "6"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Eggs_Benedict"
+                },
+                {
+                    "isString": true,
+                    "content": "Hash_Browns"
+                },
+                {
+                    "isString": true,
+                    "content": "Coffee_Espresso"
+                }
+            ],
+            "quantity": {
+                "Eggs_Benedict": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Hash_Browns": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Coffee_Espresso": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "29"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591748"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591748_1748447345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-08"
+            },
+            "table": {
+                "isString": false,
+                "content": "12"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Veal_Parmesan"
+                },
+                {
+                    "isString": true,
+                    "content": "Spaghetti"
+                }
+            ],
+            "quantity": {
+                "Veal_Parmesan": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Spaghetti": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "39"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591749"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591749_1748451678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-05"
+            },
+            "table": {
+                "isString": false,
+                "content": "18"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Salmon_Grilled"
+                },
+                {
+                    "isString": true,
+                    "content": "Quinoa_Salad"
+                },
+                {
+                    "isString": true,
+                    "content": "Water_Still"
+                }
+            ],
+            "quantity": {
+                "Salmon_Grilled": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Quinoa_Salad": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Water_Still": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "33"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591750"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591750_1748456012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-03"
+            },
+            "table": {
+                "isString": false,
+                "content": "20"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Enchiladas_Chicken"
+                },
+                {
+                    "isString": true,
+                    "content": "Beans_Refried"
+                },
+                {
+                    "isString": true,
+                    "content": "Margarita_Classic"
+                }
+            ],
+            "quantity": {
+                "Enchiladas_Chicken": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Beans_Refried": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Margarita_Classic": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "41"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591751"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591751_1748460345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-01"
+            },
+            "table": {
+                "isString": false,
+                "content": "24"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Meatloaf_Classic"
+                },
+                {
+                    "isString": true,
+                    "content": "Green_Beans"
+                }
+            ],
+            "quantity": {
+                "Meatloaf_Classic": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Green_Beans": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "20"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591752"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591752_1748464678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-29"
+            },
+            "table": {
+                "isString": false,
+                "content": "16"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Fish_Tacos"
+                },
+                {
+                    "isString": true,
+                    "content": "Guacamole"
+                },
+                {
+                    "isString": true,
+                    "content": "Beer_Corona"
+                }
+            ],
+            "quantity": {
+                "Fish_Tacos": {
+                    "isString": false,
+                    "content": "3"
+                },
+                "Guacamole": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Beer_Corona": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "47"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591753"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591753_1748469012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-27"
+            },
+            "table": {
+                "isString": false,
+                "content": "8"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Chicken_Salad"
+                },
+                {
+                    "isString": true,
+                    "content": "Crackers"
+                }
+            ],
+            "quantity": {
+                "Chicken_Salad": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Crackers": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "15"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591754"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591754_1748473345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-25"
+            },
+            "table": {
+                "isString": false,
+                "content": "2"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Bison_Burger"
+                },
+                {
+                    "isString": true,
+                    "content": "Sweet_Potato_Fries"
+                }
+            ],
+            "quantity": {
+                "Bison_Burger": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Sweet_Potato_Fries": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "32"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591755"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591755_1748477678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-23"
+            },
+            "table": {
+                "isString": false,
+                "content": "13"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Quiche_Lorraine"
+                },
+                {
+                    "isString": true,
+                    "content": "Fruit_Salad"
+                },
+                {
+                    "isString": true,
+                    "content": "Tea_Green"
+                }
+            ],
+            "quantity": {
+                "Quiche_Lorraine": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Fruit_Salad": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Tea_Green": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "25"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591756"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591756_1748482012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-20"
+            },
+            "table": {
+                "isString": false,
+                "content": "17"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Pot_Roast"
+                },
+                {
+                    "isString": true,
+                    "content": "Carrots_Glazed"
+                },
+                {
+                    "isString": true,
+                    "content": "Gravy"
+                }
+            ],
+            "quantity": {
+                "Pot_Roast": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Carrots_Glazed": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Gravy": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "30"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591757"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591757_1748486345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-18"
+            },
+            "table": {
+                "isString": false,
+                "content": "5"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Tilapia_Blackened"
+                },
+                {
+                    "isString": true,
+                    "content": "Corn_Grilled"
+                }
+            ],
+            "quantity": {
+                "Tilapia_Blackened": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Corn_Grilled": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "22"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591758"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591758_1748490678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-16"
+            },
+            "table": {
+                "isString": false,
+                "content": "11"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Chicken_Wings"
+                },
+                {
+                    "isString": true,
+                    "content": "Celery_Sticks"
+                },
+                {
+                    "isString": true,
+                    "content": "Blue_Cheese"
+                }
+            ],
+            "quantity": {
+                "Chicken_Wings": {
+                    "isString": false,
+                    "content": "12"
+                },
+                "Celery_Sticks": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Blue_Cheese": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "43"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591759"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591759_1748495012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-14"
+            },
+            "table": {
+                "isString": false,
+                "content": "19"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Ratatouille"
+                },
+                {
+                    "isString": true,
+                    "content": "French_Bread"
+                }
+            ],
+            "quantity": {
+                "Ratatouille": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "French_Bread": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "18"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591760"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591760_1748499345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-12"
+            },
+            "table": {
+                "isString": false,
+                "content": "1"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Paella_Seafood"
+                },
+                {
+                    "isString": true,
+                    "content": "Sangria_Red"
+                }
+            ],
+            "quantity": {
+                "Paella_Seafood": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Sangria_Red": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "56"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591761"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591761_1748503678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-10"
+            },
+            "table": {
+                "isString": false,
+                "content": "25"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Goulash_Hungarian"
+                },
+                {
+                    "isString": true,
+                    "content": "Dumplings"
+                }
+            ],
+            "quantity": {
+                "Goulash_Hungarian": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Dumplings": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "28"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591762"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591762_1748508012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-08"
+            },
+            "table": {
+                "isString": false,
+                "content": "22"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Moussaka"
+                },
+                {
+                    "isString": true,
+                    "content": "Greek_Salad"
+                },
+                {
+                    "isString": true,
+                    "content": "Ouzo"
+                }
+            ],
+            "quantity": {
+                "Moussaka": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Greek_Salad": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Ouzo": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "35"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591763"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591763_1748512345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-06"
+            },
+            "table": {
+                "isString": false,
+                "content": "14"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Bratwurst"
+                },
+                {
+                    "isString": true,
+                    "content": "Sauerkraut"
+                },
+                {
+                    "isString": true,
+                    "content": "Beer_German"
+                }
+            ],
+            "quantity": {
+                "Bratwurst": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Sauerkraut": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Beer_German": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "38"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591764"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591764_1748516678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-04"
+            },
+            "table": {
+                "isString": false,
+                "content": "7"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Pad_Thai"
+                },
+                {
+                    "isString": true,
+                    "content": "Spring_Rolls"
+                }
+            ],
+            "quantity": {
+                "Pad_Thai": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Spring_Rolls": {
+                    "isString": false,
+                    "content": "4"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "26"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591765"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591765_1748521012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-02"
+            },
+            "table": {
+                "isString": false,
+                "content": "10"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Kimchi_Fried_Rice"
+                },
+                {
+                    "isString": true,
+                    "content": "Bulgogi_Beef"
+                },
+                {
+                    "isString": true,
+                    "content": "Soju"
+                }
+            ],
+            "quantity": {
+                "Kimchi_Fried_Rice": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Bulgogi_Beef": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Soju": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "41"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591766"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591766_1748525345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-31"
+            },
+            "table": {
+                "isString": false,
+                "content": "18"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Falafel_Plate"
+                },
+                {
+                    "isString": true,
+                    "content": "Hummus"
+                },
+                {
+                    "isString": true,
+                    "content": "Pita_Bread"
+                }
+            ],
+            "quantity": {
+                "Falafel_Plate": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Hummus": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Pita_Bread": {
+                    "isString": false,
+                    "content": "3"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "24"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591767"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591767_1748529678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-29"
+            },
+            "table": {
+                "isString": false,
+                "content": "3"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Butter_Chicken"
+                },
+                {
+                    "isString": true,
+                    "content": "Naan_Garlic"
+                },
+                {
+                    "isString": true,
+                    "content": "Lassi_Mango"
+                }
+            ],
+            "quantity": {
+                "Butter_Chicken": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Naan_Garlic": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Lassi_Mango": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "32"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591768"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591768_1748534012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-27"
+            },
+            "table": {
+                "isString": false,
+                "content": "21"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Coq_Au_Vin"
+                },
+                {
+                    "isString": true,
+                    "content": "Mashed_Potatoes_Truffle"
+                }
+            ],
+            "quantity": {
+                "Coq_Au_Vin": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Mashed_Potatoes_Truffle": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "52"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591769"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591769_1748538345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-25"
+            },
+            "table": {
+                "isString": false,
+                "content": "9"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Fish_And_Chips"
+                },
+                {
+                    "isString": true,
+                    "content": "Mushy_Peas"
+                }
+            ],
+            "quantity": {
+                "Fish_And_Chips": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Mushy_Peas": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "19"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591770"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591770_1748542678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-23"
+            },
+            "table": {
+                "isString": false,
+                "content": "15"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Jambalaya"
+                },
+                {
+                    "isString": true,
+                    "content": "Cornbread"
+                },
+                {
+                    "isString": true,
+                    "content": "Sweet_Tea"
+                }
+            ],
+            "quantity": {
+                "Jambalaya": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Cornbread": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Sweet_Tea": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "23"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591771"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591771_1748547012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-21"
+            },
+            "table": {
+                "isString": false,
+                "content": "6"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Gazpacho"
+                },
+                {
+                    "isString": true,
+                    "content": "Tortilla_Espanola"
+                }
+            ],
+            "quantity": {
+                "Gazpacho": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Tortilla_Espanola": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "21"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591772"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591772_1748551345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-19"
+            },
+            "table": {
+                "isString": false,
+                "content": "12"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Risotto_Mushroom"
+                },
+                {
+                    "isString": true,
+                    "content": "Bruschetta"
+                },
+                {
+                    "isString": true,
+                    "content": "Chianti_Wine"
+                }
+            ],
+            "quantity": {
+                "Risotto_Mushroom": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Bruschetta": {
+                    "isString": false,
+                    "content": "3"
+                },
+                "Chianti_Wine": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "44"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591773"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591773_1748555678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-17"
+            },
+            "table": {
+                "isString": false,
+                "content": "24"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Schnitzel_Pork"
+                },
+                {
+                    "isString": true,
+                    "content": "Red_Cabbage"
+                },
+                {
+                    "isString": true,
+                    "content": "Beer_Oktoberfest"
+                }
+            ],
+            "quantity": {
+                "Schnitzel_Pork": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Red_Cabbage": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Beer_Oktoberfest": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "41"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591774"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591774_1748560012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-15"
+            },
+            "table": {
+                "isString": false,
+                "content": "16"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Dim_Sum_Platter"
+                },
+                {
+                    "isString": true,
+                    "content": "Tea_Jasmine"
+                }
+            ],
+            "quantity": {
+                "Dim_Sum_Platter": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Tea_Jasmine": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "38"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591775"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591775_1748564345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-13"
+            },
+            "table": {
+                "isString": false,
+                "content": "4"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Tempura_Vegetables"
+                },
+                {
+                    "isString": true,
+                    "content": "Miso_Soup"
+                },
+                {
+                    "isString": true,
+                    "content": "Sake_Hot"
+                }
+            ],
+            "quantity": {
+                "Tempura_Vegetables": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Miso_Soup": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Sake_Hot": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "29"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591776"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591776_1748568678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-11"
+            },
+            "table": {
+                "isString": false,
+                "content": "20"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Pho_Beef"
+                },
+                {
+                    "isString": true,
+                    "content": "Vietnamese_Coffee"
+                }
+            ],
+            "quantity": {
+                "Pho_Beef": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Vietnamese_Coffee": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "17"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591777"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591777_1748573012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-11"
+            },
+            "table": {
+                "isString": false,
+                "content": "8"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Caesar_Salad"
+                },
+                {
+                    "isString": true,
+                    "content": "Grilled_Chicken_Breast"
+                }
+            ],
+            "quantity": {
+                "Caesar_Salad": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Grilled_Chicken_Breast": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "24"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591778"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591778_1748577345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-11"
+            },
+            "table": {
+                "isString": false,
+                "content": "26"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Avocado_Toast"
+                },
+                {
+                    "isString": true,
+                    "content": "Fresh_Juice_Mixed"
+                }
+            ],
+            "quantity": {
+                "Avocado_Toast": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Fresh_Juice_Mixed": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "19"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591779"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591779_1748581678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-10"
+            },
+            "table": {
+                "isString": false,
+                "content": "11"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Beef_Tacos"
+                },
+                {
+                    "isString": true,
+                    "content": "Mexican_Rice"
+                },
+                {
+                    "isString": true,
+                    "content": "Lime_Agua_Fresca"
+                }
+            ],
+            "quantity": {
+                "Beef_Tacos": {
+                    "isString": false,
+                    "content": "3"
+                },
+                "Mexican_Rice": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Lime_Agua_Fresca": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "28"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591780"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591780_1748586012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-10"
+            },
+            "table": {
+                "isString": false,
+                "content": "17"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Vegetarian_Wrap"
+                },
+                {
+                    "isString": true,
+                    "content": "Kombucha_Ginger"
+                }
+            ],
+            "quantity": {
+                "Vegetarian_Wrap": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Kombucha_Ginger": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "16"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591781"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591781_1748590345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-09"
+            },
+            "table": {
+                "isString": false,
+                "content": "5"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Salmon_Teriyaki"
+                },
+                {
+                    "isString": true,
+                    "content": "Brown_Rice"
+                },
+                {
+                    "isString": true,
+                    "content": "Green_Tea"
+                }
+            ],
+            "quantity": {
+                "Salmon_Teriyaki": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Brown_Rice": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Green_Tea": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "31"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591782"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591782_1748594678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-08"
+            },
+            "table": {
+                "isString": false,
+                "content": "23"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "BBQ_Pulled_Pork"
+                },
+                {
+                    "isString": true,
+                    "content": "Mac_And_Cheese"
+                }
+            ],
+            "quantity": {
+                "BBQ_Pulled_Pork": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Mac_And_Cheese": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "25"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591783"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591783_1748599012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-07"
+            },
+            "table": {
+                "isString": false,
+                "content": "14"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Mediterranean_Bowl"
+                },
+                {
+                    "isString": true,
+                    "content": "Tzatziki_Sauce"
+                },
+                {
+                    "isString": true,
+                    "content": "Pita_Chips"
+                }
+            ],
+            "quantity": {
+                "Mediterranean_Bowl": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Tzatziki_Sauce": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Pita_Chips": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "22"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591784"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591784_1748603345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-06"
+            },
+            "table": {
+                "isString": false,
+                "content": "19"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Mushroom_Risotto"
+                },
+                {
+                    "isString": true,
+                    "content": "Garlic_Bread"
+                },
+                {
+                    "isString": true,
+                    "content": "Pinot_Grigio"
+                }
+            ],
+            "quantity": {
+                "Mushroom_Risotto": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Garlic_Bread": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Pinot_Grigio": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "39"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591785"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591785_1748607678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-05"
+            },
+            "table": {
+                "isString": false,
+                "content": "7"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Chicken_Parmesan"
+                },
+                {
+                    "isString": true,
+                    "content": "Spaghetti_Marinara"
+                }
+            ],
+            "quantity": {
+                "Chicken_Parmesan": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Spaghetti_Marinara": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "26"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591786"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591786_1748612012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-04"
+            },
+            "table": {
+                "isString": false,
+                "content": "12"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Thai_Green_Curry"
+                },
+                {
+                    "isString": true,
+                    "content": "Jasmine_Rice"
+                },
+                {
+                    "isString": true,
+                    "content": "Thai_Iced_Tea"
+                }
+            ],
+            "quantity": {
+                "Thai_Green_Curry": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Jasmine_Rice": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Thai_Iced_Tea": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "24"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591787"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591787_1748616345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-03"
+            },
+            "table": {
+                "isString": false,
+                "content": "25"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Filet_Mignon"
+                },
+                {
+                    "isString": true,
+                    "content": "Asparagus_Grilled"
+                },
+                {
+                    "isString": true,
+                    "content": "Cabernet_Sauvignon"
+                }
+            ],
+            "quantity": {
+                "Filet_Mignon": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Asparagus_Grilled": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Cabernet_Sauvignon": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "68"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591788"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591788_1748620678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-02"
+            },
+            "table": {
+                "isString": false,
+                "content": "1"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Breakfast_Burrito"
+                },
+                {
+                    "isString": true,
+                    "content": "Home_Fries"
+                },
+                {
+                    "isString": true,
+                    "content": "Coffee_Americano"
+                }
+            ],
+            "quantity": {
+                "Breakfast_Burrito": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Home_Fries": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Coffee_Americano": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "18"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591789"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591789_1748625012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-06-01"
+            },
+            "table": {
+                "isString": false,
+                "content": "21"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Seared_Scallops"
+                },
+                {
+                    "isString": true,
+                    "content": "Cauliflower_Puree"
+                },
+                {
+                    "isString": true,
+                    "content": "Chardonnay"
+                }
+            ],
+            "quantity": {
+                "Seared_Scallops": {
+                    "isString": false,
+                    "content": "3"
+                },
+                "Cauliflower_Puree": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Chardonnay": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "54"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591790"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591790_1748629345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-31"
+            },
+            "table": {
+                "isString": false,
+                "content": "9"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Club_Sandwich"
+                },
+                {
+                    "isString": true,
+                    "content": "Potato_Salad"
+                },
+                {
+                    "isString": true,
+                    "content": "Lemonade_Fresh"
+                }
+            ],
+            "quantity": {
+                "Club_Sandwich": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Potato_Salad": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Lemonade_Fresh": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "19"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591791"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591791_1748633678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-29"
+            },
+            "table": {
+                "isString": false,
+                "content": "16"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Tuna_Sashimi"
+                },
+                {
+                    "isString": true,
+                    "content": "Edamame"
+                },
+                {
+                    "isString": true,
+                    "content": "Sake_Cold"
+                }
+            ],
+            "quantity": {
+                "Tuna_Sashimi": {
+                    "isString": false,
+                    "content": "6"
+                },
+                "Edamame": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Sake_Cold": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "42"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591792"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591792_1748638012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-27"
+            },
+            "table": {
+                "isString": false,
+                "content": "4"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Shepherd_Pie"
+                },
+                {
+                    "isString": true,
+                    "content": "Beer_IPA"
+                }
+            ],
+            "quantity": {
+                "Shepherd_Pie": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Beer_IPA": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "31"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591793"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591793_1748642345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-26"
+            },
+            "table": {
+                "isString": false,
+                "content": "18"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Beef_Wellington"
+                },
+                {
+                    "isString": true,
+                    "content": "Brussels_Sprouts"
+                },
+                {
+                    "isString": true,
+                    "content": "Red_Wine_Bordeaux"
+                }
+            ],
+            "quantity": {
+                "Beef_Wellington": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Brussels_Sprouts": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Red_Wine_Bordeaux": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "75"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591794"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591794_1748646678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-24"
+            },
+            "table": {
+                "isString": false,
+                "content": "13"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Chicken_Quesadilla"
+                },
+                {
+                    "isString": true,
+                    "content": "Salsa_Verde"
+                },
+                {
+                    "isString": true,
+                    "content": "Corona_Extra"
+                }
+            ],
+            "quantity": {
+                "Chicken_Quesadilla": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Salsa_Verde": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Corona_Extra": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "21"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591795"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591795_1748651012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-23"
+            },
+            "table": {
+                "isString": false,
+                "content": "8"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Lobster_Bisque"
+                },
+                {
+                    "isString": true,
+                    "content": "Sourdough_Roll"
+                }
+            ],
+            "quantity": {
+                "Lobster_Bisque": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Sourdough_Roll": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "16"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591796"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591796_1748655345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-21"
+            },
+            "table": {
+                "isString": false,
+                "content": "22"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Rack_Of_Lamb"
+                },
+                {
+                    "isString": true,
+                    "content": "Rosemary_Potatoes"
+                },
+                {
+                    "isString": true,
+                    "content": "Merlot"
+                }
+            ],
+            "quantity": {
+                "Rack_Of_Lamb": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Rosemary_Potatoes": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Merlot": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "58"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591797"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591797_1748659678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-19"
+            },
+            "table": {
+                "isString": false,
+                "content": "6"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Caprese_Salad"
+                },
+                {
+                    "isString": true,
+                    "content": "Balsamic_Glaze"
+                },
+                {
+                    "isString": true,
+                    "content": "Prosecco"
+                }
+            ],
+            "quantity": {
+                "Caprese_Salad": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Balsamic_Glaze": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Prosecco": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "23"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591798"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591798_1748664012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-17"
+            },
+            "table": {
+                "isString": false,
+                "content": "15"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Duck_Confit"
+                },
+                {
+                    "isString": true,
+                    "content": "Wild_Rice"
+                },
+                {
+                    "isString": true,
+                    "content": "Port_Wine"
+                }
+            ],
+            "quantity": {
+                "Duck_Confit": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Wild_Rice": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Port_Wine": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "49"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591799"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591799_1748668345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-16"
+            },
+            "table": {
+                "isString": false,
+                "content": "24"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Seafood_Paella"
+                },
+                {
+                    "isString": true,
+                    "content": "Sangria_White"
+                }
+            ],
+            "quantity": {
+                "Seafood_Paella": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Sangria_White": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "48"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591800"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591800_1748672678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-14"
+            },
+            "table": {
+                "isString": false,
+                "content": "11"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Chicken_Marsala"
+                },
+                {
+                    "isString": true,
+                    "content": "Garlic_Mashed_Potatoes"
+                }
+            ],
+            "quantity": {
+                "Chicken_Marsala": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Garlic_Mashed_Potatoes": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "29"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591801"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591801_1748677012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-13"
+            },
+            "table": {
+                "isString": false,
+                "content": "19"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Sushi_Platter"
+                },
+                {
+                    "isString": true,
+                    "content": "Wasabi"
+                },
+                {
+                    "isString": true,
+                    "content": "Ginger_Pickled"
+                }
+            ],
+            "quantity": {
+                "Sushi_Platter": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Wasabi": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Ginger_Pickled": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "36"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591802"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591802_1748681345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-11"
+            },
+            "table": {
+                "isString": false,
+                "content": "2"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Fish_Tacos_Baja"
+                },
+                {
+                    "isString": true,
+                    "content": "Black_Beans"
+                },
+                {
+                    "isString": true,
+                    "content": "Horchata"
+                }
+            ],
+            "quantity": {
+                "Fish_Tacos_Baja": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Black_Beans": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Horchata": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "24"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591803"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591803_1748685678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-09"
+            },
+            "table": {
+                "isString": false,
+                "content": "26"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Prime_Rib"
+                },
+                {
+                    "isString": true,
+                    "content": "Yorkshire_Pudding"
+                },
+                {
+                    "isString": true,
+                    "content": "Au_Jus"
+                }
+            ],
+            "quantity": {
+                "Prime_Rib": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Yorkshire_Pudding": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Au_Jus": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "46"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591804"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591804_1748690012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-07"
+            },
+            "table": {
+                "isString": false,
+                "content": "17"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Vegetable_Curry"
+                },
+                {
+                    "isString": true,
+                    "content": "Basmati_Rice"
+                },
+                {
+                    "isString": true,
+                    "content": "Naan_Plain"
+                }
+            ],
+            "quantity": {
+                "Vegetable_Curry": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Basmati_Rice": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Naan_Plain": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "22"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591805"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591805_1748694345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-06"
+            },
+            "table": {
+                "isString": false,
+                "content": "5"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Peking_Duck"
+                },
+                {
+                    "isString": true,
+                    "content": "Pancakes_Chinese"
+                },
+                {
+                    "isString": true,
+                    "content": "Hoisin_Sauce"
+                }
+            ],
+            "quantity": {
+                "Peking_Duck": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Pancakes_Chinese": {
+                    "isString": false,
+                    "content": "4"
+                },
+                "Hoisin_Sauce": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "55"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591806"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591806_1748698678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-04"
+            },
+            "table": {
+                "isString": false,
+                "content": "12"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Gnocchi_Potato"
+                },
+                {
+                    "isString": true,
+                    "content": "Sage_Butter"
+                },
+                {
+                    "isString": true,
+                    "content": "Parmesan_Fresh"
+                }
+            ],
+            "quantity": {
+                "Gnocchi_Potato": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Sage_Butter": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Parmesan_Fresh": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "27"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591807"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591807_1748703012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-05-02"
+            },
+            "table": {
+                "isString": false,
+                "content": "20"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Taco_Al_Pastor"
+                },
+                {
+                    "isString": true,
+                    "content": "Cilantro_Onion"
+                },
+                {
+                    "isString": true,
+                    "content": "Pineapple_Grilled"
+                }
+            ],
+            "quantity": {
+                "Taco_Al_Pastor": {
+                    "isString": false,
+                    "content": "4"
+                },
+                "Cilantro_Onion": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Pineapple_Grilled": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "26"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591808"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591808_1748707345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-30"
+            },
+            "table": {
+                "isString": false,
+                "content": "14"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Clam_Chowder"
+                },
+                {
+                    "isString": true,
+                    "content": "Oyster_Crackers"
+                }
+            ],
+            "quantity": {
+                "Clam_Chowder": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Oyster_Crackers": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "12"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591809"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591809_1748711678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-28"
+            },
+            "table": {
+                "isString": false,
+                "content": "7"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Carbonara_Pasta"
+                },
+                {
+                    "isString": true,
+                    "content": "Caesar_Side_Salad"
+                }
+            ],
+            "quantity": {
+                "Carbonara_Pasta": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Caesar_Side_Salad": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "24"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591810"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591810_1748716012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-26"
+            },
+            "table": {
+                "isString": false,
+                "content": "23"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Butternut_Squash_Soup"
+                },
+                {
+                    "isString": true,
+                    "content": "Croutons_Herb"
+                }
+            ],
+            "quantity": {
+                "Butternut_Squash_Soup": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Croutons_Herb": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "14"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591811"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591811_1748720345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-24"
+            },
+            "table": {
+                "isString": false,
+                "content": "1"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Moroccan_Tagine"
+                },
+                {
+                    "isString": true,
+                    "content": "Couscous"
+                },
+                {
+                    "isString": true,
+                    "content": "Mint_Tea_Hot"
+                }
+            ],
+            "quantity": {
+                "Moroccan_Tagine": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Couscous": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Mint_Tea_Hot": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "31"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591812"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591812_1748724678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-22"
+            },
+            "table": {
+                "isString": false,
+                "content": "18"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Eggplant_Parmesan"
+                },
+                {
+                    "isString": true,
+                    "content": "Marinara_Sauce"
+                },
+                {
+                    "isString": true,
+                    "content": "Mozzarella_Fresh"
+                }
+            ],
+            "quantity": {
+                "Eggplant_Parmesan": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Marinara_Sauce": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Mozzarella_Fresh": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "23"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591813"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591813_1748729012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-21"
+            },
+            "table": {
+                "isString": false,
+                "content": "9"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Korean_BBQ_Beef"
+                },
+                {
+                    "isString": true,
+                    "content": "Kimchi"
+                },
+                {
+                    "isString": true,
+                    "content": "Soju_Bottle"
+                }
+            ],
+            "quantity": {
+                "Korean_BBQ_Beef": {
+                    "isString": false,
+                    "content": "200"
+                },
+                "Kimchi": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Soju_Bottle": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "65"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591814"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591814_1748733345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-19"
+            },
+            "table": {
+                "isString": false,
+                "content": "25"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Chicken_Tikka_Masala"
+                },
+                {
+                    "isString": true,
+                    "content": "Naan_Cheese"
+                },
+                {
+                    "isString": true,
+                    "content": "Mango_Lassi"
+                }
+            ],
+            "quantity": {
+                "Chicken_Tikka_Masala": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Naan_Cheese": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Mango_Lassi": {
+                    "isString": false,
+                    "content": "2"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "34"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591815"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591815_1748737678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-04-17"
+            },
+            "table": {
+                "isString": false,
+                "content": "16"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Honey_Glazed_Ham"
+                },
+                {
+                    "isString": true,
+                    "content": "Pineapple_Rings"
+                },
+                {
+                    "isString": true,
+                    "content": "Sweet_Potato_Casserole"
+                }
+            ],
+            "quantity": {
+                "Honey_Glazed_Ham": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Pineapple_Rings": {
+                    "isString": false,
+                    "content": "3"
+                },
+                "Sweet_Potato_Casserole": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "38"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591816"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591816_1748742012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-30"
+            },
+            "table": {
+                "isString": false,
+                "content": "10"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Beef_Stroganoff"
+                },
+                {
+                    "isString": true,
+                    "content": "Egg_Noodles"
+                },
+                {
+                    "isString": true,
+                    "content": "Sour_Cream"
+                }
+            ],
+            "quantity": {
+                "Beef_Stroganoff": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Egg_Noodles": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Sour_Cream": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "26"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591817"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591817_1748746345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-26"
+            },
+            "table": {
+                "isString": false,
+                "content": "21"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Lobster_Thermidor"
+                },
+                {
+                    "isString": true,
+                    "content": "Lemon_Butter"
+                },
+                {
+                    "isString": true,
+                    "content": "Champagne_Dom_Perignon"
+                }
+            ],
+            "quantity": {
+                "Lobster_Thermidor": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Lemon_Butter": {
+                    "isString": false,
+                    "content": "2"
+                },
+                "Champagne_Dom_Perignon": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "185"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591818"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591818_1748750678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-24"
+            },
+            "table": {
+                "isString": false,
+                "content": "13"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Chicken_Cordon_Bleu"
+                },
+                {
+                    "isString": true,
+                    "content": "Hollandaise_Sauce"
+                },
+                {
+                    "isString": true,
+                    "content": "Asparagus_Steamed"
+                }
+            ],
+            "quantity": {
+                "Chicken_Cordon_Bleu": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Hollandaise_Sauce": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Asparagus_Steamed": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "32"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591819"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591819_1748755012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-20"
+            },
+            "table": {
+                "isString": false,
+                "content": "6"
+            },
+            "status": {
+                "isString": true,
+                "content": "Cancelled"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Truffle_Pasta"
+                },
+                {
+                    "isString": true,
+                    "content": "Parmesan_Aged"
+                },
+                {
+                    "isString": true,
+                    "content": "Barolo_Wine"
+                }
+            ],
+            "quantity": {
+                "Truffle_Pasta": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Parmesan_Aged": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Barolo_Wine": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "92"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591820"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591820_1748759345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-18"
+            },
+            "table": {
+                "isString": false,
+                "content": "22"
+            },
+            "status": {
+                "isString": true,
+                "content": "Placed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Surf_And_Turf"
+                },
+                {
+                    "isString": true,
+                    "content": "Lobster_Tail"
+                },
+                {
+                    "isString": true,
+                    "content": "Filet_Mignon_8oz"
+                }
+            ],
+            "quantity": {
+                "Surf_And_Turf": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Lobster_Tail": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Filet_Mignon_8oz": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "78"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591821"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591821_1748763678901"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-16"
+            },
+            "table": {
+                "isString": false,
+                "content": "4"
+            },
+            "status": {
+                "isString": true,
+                "content": "Processing"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Chicken_Piccata"
+                },
+                {
+                    "isString": true,
+                    "content": "Lemon_Sauce"
+                },
+                {
+                    "isString": true,
+                    "content": "Angel_Hair_Pasta"
+                }
+            ],
+            "quantity": {
+                "Chicken_Piccata": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Lemon_Sauce": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Angel_Hair_Pasta": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "28"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591822"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591822_1748768012345"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-14"
+            },
+            "table": {
+                "isString": false,
+                "content": "15"
+            },
+            "status": {
+                "isString": true,
+                "content": "Completed"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Seafood_Risotto"
+                },
+                {
+                    "isString": true,
+                    "content": "Saffron"
+                },
+                {
+                    "isString": true,
+                    "content": "White_Wine_Sauvignon"
+                }
+            ],
+            "quantity": {
+                "Seafood_Risotto": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Saffron": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "White_Wine_Sauvignon": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "45"
+            }
+        },
+        {
+            "clientId": {
+                "isString": true,
+                "content": "T1747158591823"
+            },
+            "orderId": {
+                "isString": true,
+                "content": "ODT1747158591823_1748772345678"
+            },
+            "date": {
+                "isString": true,
+                "content": "2025-03-12"
+            },
+            "table": {
+                "isString": false,
+                "content": "8"
+            },
+            "status": {
+                "isString": true,
+                "content": "Hold"
+            },
+            "items": [
+                {
+                    "isString": true,
+                    "content": "Wagyu_Beef_Steak"
+                },
+                {
+                    "isString": true,
+                    "content": "Truffle_Oil"
+                },
+                {
+                    "isString": true,
+                    "content": "Sea_Salt_Flakes"
+                }
+            ],
+            "quantity": {
+                "Wagyu_Beef_Steak": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Truffle_Oil": {
+                    "isString": false,
+                    "content": "1"
+                },
+                "Sea_Salt_Flakes": {
+                    "isString": false,
+                    "content": "1"
+                }
+            },
+            "total": {
+                "isString": true,
+                "content": "125"
+            }
         }
     ],
     "client": {}
