@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .controls {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .date-selector {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .date-selector label {
+            font-weight: 600;
+            color: #555;
+        }
+
+        select {
+            padding: 10px 15px;
+            border: 2px solid #e1e8ed;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background-color: white;
+            min-width: 200px;
+        }
+
+        select:hover {
+            border-color: #667eea;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .fetch-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .fetch-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .fetch-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2rem;
+            color: #667eea;
+        }
+
+        .error {
+            display: none;
+            background: #fee;
+            color: #c33;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #c33;
+        }
+
+        .success {
+            display: none;
+            background: #d4edda;
+            color: #155724;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #28a745;
+        }
+
+        .section {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+
+        .section-header {
+            padding: 20px 25px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e1e8ed;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #444;
+        }
+
+        .section-content {
+            padding: 25px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            border: 1px solid #e1e8ed;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #667eea;
+            margin: 10px 0;
+        }
+
+        .stat-label {
+            color: #777;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 30px;
+        }
+
+        .chart-container {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e1e8ed;
+        }
+
+        .chart-container h3 {
+            margin-bottom: 20px;
+            color: #444;
+            font-weight: 600;
+        }
+
+        .export-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .export-btn {
+            padding: 8px 16px;
+            border: 1px solid #ddd;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .export-btn:hover {
+            background: #f8f9fa;
+            border-color: #667eea;
+            color: #667eea;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th {
+            background: #f8f9fa;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            color: #555;
+            border-bottom: 2px solid #e1e8ed;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #f1f3f5;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .status-hold {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status-placed {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-completed {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
+        .status-processing {
+            background: #ffeaa7;
+            color: #6c5ce7;
+        }
+
+        .status-cancelled {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .items-list {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        canvas {
+            max-height: 300px;
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+            }
+
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .export-buttons {
+                flex-wrap: wrap;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .controls,
+            .export-buttons {
+                display: none !important;
+            }
+            
+            .section {
+                box-shadow: none;
+                border: 1px solid #ddd;
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <div class="date-selector">
+                <label for="dateRangeSelect">Select Date Range:</label>
+                <select id="dateRangeSelect">
+                    <option value="all">All Orders</option>
+                    <option value="today">Today</option>
+                    <option value="yesterday">Yesterday</option>
+                    <option value="last7days">Last 7 Days</option>
+                    <option value="last30days">Last 30 Days</option>
+                    <option value="thisMonth">This Month</option>
+                    <option value="lastMonth">Last Month</option>
+                </select>
+            </div>
+            <button class="fetch-btn" onclick="fetchData()" id="refreshBtn">Refresh Data</button>
+        </div>
+
+        <div class="loading" id="loading">Loading data...</div>
+        <div class="error" id="error"></div>
+        <div class="success" id="success"></div>
+
+        <!-- Report Deck Section -->
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">Report Deck</h2>
+            </div>
+            <div class="section-content">
+                <div class="stats-grid" id="statsGrid"></div>
+                <div class="charts-grid">
+                    <div class="chart-container">
+                        <h3>Order Status Trends Over Time</h3>
+                        <canvas id="statusChart"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <h3>Revenue Trends Over Time</h3>
+                        <canvas id="tableChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reports Section -->
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">Reports</h2>
+                <div class="export-buttons">
+                    <button class="export-btn" onclick="printReport()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                            <path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"></path>
+                            <rect x="6" y="14" width="12" height="8"></rect>
+                        </svg>
+                        Print
+                    </button>
+                    <button class="export-btn" onclick="downloadPDF()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="12" y1="18" x2="12" y2="12"></line>
+                            <polyline points="9 15 12 12 15 15"></polyline>
+                        </svg>
+                        PDF
+                    </button>
+                    <button class="export-btn" onclick="downloadExcel()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                        Excel
+                    </button>
+                </div>
+            </div>
+            <div class="section-content">
+                <table id="ordersTable">
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Client ID</th>
+                            <th>Date</th>
+                            <th>Table</th>
+                            <th>Status</th>
+                            <th>Items</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ordersTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // GitHub raw URL for your JSON file
+        const API_URL = 'https://raw.githubusercontent.com/maheshpomakm/ReportsJson/main/Reports_Json_Sample.json';
+        
+        let statusChart = null;
+        let tableChart = null;
+        let currentOrders = [];
+        let allOrders = [];
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add event listener to date range select
+            document.getElementById('dateRangeSelect').addEventListener('change', function() {
+                filterOrdersByDateRange();
+            });
+            
+            // Fetch initial data
+            fetchData();
+        });
+
+        // Parse the nested data structure
+        function parseOrderData(data) {
+            if (!data.order || !Array.isArray(data.order)) {
+                throw new Error('Invalid data structure: expected "order" array');
+            }
+
+            return data.order.map(order => ({
+                clientId: order.clientId?.content || '',
+                orderId: order.orderId?.content || '',
+                date: order.date?.content || '',
+                table: parseInt(order.table?.content) || 0,
+                status: order.status?.content || '',
+                items: order.items || [],
+                quantity: Object.entries(order.quantity || {}).reduce((acc, [key, val]) => {
+                    acc[key] = parseInt(val.content) || 0;
+                    return acc;
+                }, {}),
+                total: parseFloat(order.total?.content?.replace(',', '')) || 0
+            }));
+        }
+
+        // Filter orders by date range
+        function filterOrdersByDateRange() {
+            const dateRange = document.getElementById('dateRangeSelect').value;
+            const now = new Date();
+            let filteredOrders = allOrders;
+
+            if (dateRange !== 'all') {
+                filteredOrders = allOrders.filter(order => {
+                    if (!order.date) return false;
+                    
+                    const orderDate = new Date(order.date);
+                    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+                    
+                    switch (dateRange) {
+                        case 'today':
+                            return orderDate >= today;
+                        case 'yesterday':
+                            const yesterday = new Date(today);
+                            yesterday.setDate(yesterday.getDate() - 1);
+                            return orderDate >= yesterday && orderDate < today;
+                        case 'last7days':
+                            const last7Days = new Date(today);
+                            last7Days.setDate(last7Days.getDate() - 7);
+                            return orderDate >= last7Days;
+                        case 'last30days':
+                            const last30Days = new Date(today);
+                            last30Days.setDate(last30Days.getDate() - 30);
+                            return orderDate >= last30Days;
+                        case 'thisMonth':
+                            const thisMonthStart = new Date(now.getFullYear(), now.getMonth(), 1);
+                            return orderDate >= thisMonthStart;
+                        case 'lastMonth':
+                            const lastMonthStart = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+                            const lastMonthEnd = new Date(now.getFullYear(), now.getMonth(), 0);
+                            return orderDate >= lastMonthStart && orderDate <= lastMonthEnd;
+                        default:
+                            return true;
+                    }
+                });
+            }
+
+            currentOrders = filteredOrders;
+            updateStats(currentOrders);
+            updateCharts(currentOrders);
+            updateTable(currentOrders);
+        }
+
+        // Fetch data from GitHub
+        async function fetchData() {
+            const loading = document.getElementById('loading');
+            const error = document.getElementById('error');
+            const success = document.getElementById('success');
+            const refreshBtn = document.getElementById('refreshBtn');
+
+            // Show loading, hide messages
+            loading.style.display = 'block';
+            error.style.display = 'none';
+            success.style.display = 'none';
+            refreshBtn.disabled = true;
+            refreshBtn.textContent = 'Loading...';
+
+            try {
+                console.log('Fetching data from:', API_URL);
+                
+                const response = await fetch(API_URL);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                console.log('Data received:', data);
+
+                // Parse the data
+                allOrders = parseOrderData(data);
+                console.log('Parsed orders:', allOrders);
+                
+                // Apply current filter
+                filterOrdersByDateRange();
+
+                // Show success message
+                success.textContent = `Successfully loaded ${allOrders.length} orders from GitHub!`;
+                success.style.display = 'block';
+                
+                // Hide success message after 3 seconds
+                setTimeout(() => {
+                    success.style.display = 'none';
+                }, 3000);
+
+            } catch (err) {
+                console.error('Error:', err);
+                error.textContent = `Error loading data: ${err.message}`;
+                error.style.display = 'block';
+                
+                // Clear current data
+                currentOrders = [];
+                allOrders = [];
+                updateStats(currentOrders);
+                updateCharts(currentOrders);
+                updateTable(currentOrders);
+            } finally {
+                loading.style.display = 'none';
+                refreshBtn.disabled = false;
+                refreshBtn.textContent = 'Refresh Data';
+            }
+        }
+
+        // Update statistics cards
+        function updateStats(orders) {
+            const statsGrid = document.getElementById('statsGrid');
+            
+            const totalOrders = orders.length;
+            const totalRevenue = orders.reduce((sum, order) => sum + order.total, 0);
+            const placedOrders = orders.filter(o => o.status === 'Placed').length;
+            const completedOrders = orders.filter(o => o.status === 'Completed').length;
+            const holdOrders = orders.filter(o => o.status === 'Hold').length;
+            const processingOrders = orders.filter(o => o.status === 'Processing').length;
+
+            statsGrid.innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-label">Total Orders</div>
+                    <div class="stat-value">${totalOrders}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Total Revenue</div>
+                    <div class="stat-value">₹${totalRevenue.toLocaleString()}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Completed</div>
+                    <div class="stat-value">${completedOrders}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Processing</div>
+                    <div class="stat-value">${processingOrders}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Placed</div>
+                    <div class="stat-value">${placedOrders}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">On Hold</div>
+                    <div class="stat-value">${holdOrders}</div>
+                </div>
+            `;
+        }
+
+        // Update charts - NOW SHOWING TRENDS OVER TIME BY DATE
+        function updateCharts(orders) {
+            // Group orders by date
+            const ordersByDate = orders.reduce((acc, order) => {
+                if (!order.date) return acc;
+                
+                const dateKey = new Date(order.date).toLocaleDateString();
+                if (!acc[dateKey]) {
+                    acc[dateKey] = [];
+                }
+                acc[dateKey].push(order);
+                return acc;
+            }, {});
+
+            // Sort dates
+            const sortedDates = Object.keys(ordersByDate).sort((a, b) => new Date(a) - new Date(b));
+
+            // Status chart data - show status distribution over time
+            const statusData = {
+                'Placed': [],
+                'Completed': [],
+                'Processing': [],
+                'Hold': [],
+                'Cancelled': []
+            };
+
+            sortedDates.forEach(date => {
+                const dayOrders = ordersByDate[date];
+                const statusCounts = dayOrders.reduce((acc, order) => {
+                    acc[order.status] = (acc[order.status] || 0) + 1;
+                    return acc;
+                }, {});
+
+                // Add counts for each status (0 if no orders with that status)
+                Object.keys(statusData).forEach(status => {
+                    statusData[status].push(statusCounts[status] || 0);
+                });
+            });
+
+            // Update status chart (line chart showing trends over time)
+            const statusCtx = document.getElementById('statusChart').getContext('2d');
+            if (statusChart) statusChart.destroy();
+            
+            statusChart = new Chart(statusCtx, {
+                type: 'line',
+                data: {
+                    labels: sortedDates,
+                    datasets: [
+                        {
+                            label: 'Placed',
+                            data: statusData['Placed'],
+                            borderColor: '#28a745',
+                            backgroundColor: 'rgba(40, 167, 69, 0.1)',
+                            tension: 0.4
+                        },
+                        {
+                            label: 'Completed',
+                            data: statusData['Completed'],
+                            borderColor: '#17a2b8',
+                            backgroundColor: 'rgba(23, 162, 184, 0.1)',
+                            tension: 0.4
+                        },
+                        {
+                            label: 'Processing',
+                            data: statusData['Processing'],
+                            borderColor: '#ffc107',
+                            backgroundColor: 'rgba(255, 193, 7, 0.1)',
+                            tension: 0.4
+                        },
+                        {
+                            label: 'Hold',
+                            data: statusData['Hold'],
+                            borderColor: '#dc3545',
+                            backgroundColor: 'rgba(220, 53, 69, 0.1)',
+                            tension: 0.4
+                        },
+                        {
+                            label: 'Cancelled',
+                            data: statusData['Cancelled'],
+                            borderColor: '#6f42c1',
+                            backgroundColor: 'rgba(111, 66, 193, 0.1)',
+                            tension: 0.4
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                stepSize: 1
+                            }
+                        },
+                        x: {
+                            ticks: {
+                                maxRotation: 45
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Revenue chart data - show total revenue over time
+            const revenueData = [];
+            
+            sortedDates.forEach(date => {
+                const dayOrders = ordersByDate[date];
+                const dailyRevenue = dayOrders.reduce((sum, order) => sum + order.total, 0);
+                revenueData.push(dailyRevenue);
+            });
+
+            // Sample dates to show only 5-10 dates for better readability
+            let sampledDates = sortedDates;
+            let sampledRevenue = revenueData;
+            
+            if (sortedDates.length > 10) {
+                const step = Math.ceil(sortedDates.length / 8); // Target around 8 dates
+                sampledDates = sortedDates.filter((_, index) => index % step === 0);
+                sampledRevenue = revenueData.filter((_, index) => index % step === 0);
+                
+                // Always include the last date if it's not already included
+                if (sampledDates[sampledDates.length - 1] !== sortedDates[sortedDates.length - 1]) {
+                    sampledDates.push(sortedDates[sortedDates.length - 1]);
+                    sampledRevenue.push(revenueData[revenueData.length - 1]);
+                }
+            }
+
+            // Update revenue chart (line chart showing revenue trends over time)
+            const tableCtx = document.getElementById('tableChart').getContext('2d');
+            if (tableChart) tableChart.destroy();
+            
+            tableChart = new Chart(tableCtx, {
+                type: 'line',
+                data: {
+                    labels: sampledDates,
+                    datasets: [{
+                        label: 'Daily Revenue (₹)',
+                        data: sampledRevenue,
+                        borderColor: '#667eea',
+                        backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                        tension: 0.4,
+                        fill: true,
+                        pointBackgroundColor: '#667eea',
+                        pointBorderColor: '#ffffff',
+                        pointBorderWidth: 2,
+                        pointRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                callback: function(value) {
+                                    return '₹' + value.toLocaleString();
+                                }
+                            }
+                        },
+                        x: {
+                            ticks: {
+                                maxRotation: 45
+                            }
+                        }
+                    },
+                    elements: {
+                        point: {
+                            hoverRadius: 8
+                        }
+                    }
+                }
+            });
+        }
+
+        // Update orders table
+        function updateTable(orders) {
+            const tbody = document.getElementById('ordersTableBody');
+            
+            if (orders.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="7" style="text-align: center; color: #666; font-style: italic; padding: 40px;">
+                            No orders found for the selected date range.
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            tbody.innerHTML = orders.map(order => {
+                const itemsList = order.items.map(item => {
+                    const itemId = item.content || item;
+                    const quantity = order.quantity[itemId] || 0;
+                    return `${itemId} (x${quantity})`;
+                }).join(', ');
+
+                const statusClass = order.status.toLowerCase();
+                
+                return `
+                    <tr>
+                        <td>${order.orderId}</td>
+                        <td>${order.clientId}</td>
+                        <td>${order.date || 'N/A'}</td>
+                        <td>Table ${order.table}</td>
+                        <td>
+                            <span class="status-badge status-${statusClass}">
+                                ${order.status}
+                            </span>
+                        </td>
+                        <td class="items-list">${itemsList}</td>
+                        <td>₹${order.total.toLocaleString()}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        // Print functionality
+        function printReport() {
+            window.print();
+        }
+
+        // PDF download functionality
+        function downloadPDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+            
+            // Add title
+            doc.setFontSize(20);
+            doc.text('Order Report', 14, 22);
+            
+            // Add date
+            doc.setFontSize(12);
+            doc.text(`Date Range: ${document.getElementById('dateRangeSelect').value}`, 14, 35);
+            doc.text(`Generated: ${new Date().toLocaleString()}`, 14, 42);
+            
+            // Add stats
+            doc.setFontSize(14);
+            doc.text('Summary Statistics', 14, 55);
+            doc.setFontSize(10);
+            
+            const stats = document.querySelectorAll('.stat-card');
+            let yPos = 65;
+            stats.forEach(stat => {
+                const label = stat.querySelector('.stat-label').textContent;
+                const value = stat.querySelector('.stat-value').textContent;
+                doc.text(`${label}: ${value}`, 14, yPos);
+                yPos += 8;
+            });
+            
+            // Add table
+            doc.setFontSize(14);
+            doc.text('Order Details', 14, yPos + 10);
+            
+            // Table data
+            const tableData = currentOrders.map(order => {
+                const itemsList = order.items.map(item => {
+                    const itemId = item.content || item;
+                    const quantity = order.quantity[itemId] || 0;
+                    return `${itemId} (x${quantity})`;
+                }).join(', ');
+                
+                return [
+                    order.orderId,
+                    order.clientId,
+                    order.date || 'N/A',
+                    `Table ${order.table}`,
+                    order.status,
+                    itemsList,
+                    `₹${order.total.toLocaleString()}`
+                ];
+            });
+            
+            doc.autoTable({
+                head: [['Order ID', 'Client ID', 'Date', 'Table', 'Status', 'Items', 'Total']],
+                body: tableData,
+                startY: yPos + 20,
+                theme: 'striped',
+                headStyles: { fillColor: [102, 126, 234] },
+                styles: { fontSize: 8 }
+            });
+            
+            // Save the PDF
+            doc.save(`order-report-${new Date().toISOString().split('T')[0]}.pdf`);
+        }
+
+        // Excel download functionality
+        function downloadExcel() {
+            // Prepare data for Excel
+            const data = currentOrders.map(order => {
+                const itemsList = order.items.map(item => {
+                    const itemId = item.content || item;
+                    const quantity = order.quantity[itemId] || 0;
+                    return `${itemId} (x${quantity})`;
+                }).join(', ');
+                
+                return {
+                    'Order ID': order.orderId,
+                    'Client ID': order.clientId,
+                    'Date': order.date || 'N/A',
+                    'Table': `Table ${order.table}`,
+                    'Status': order.status,
+                    'Items': itemsList,
+                    'Total': order.total
+                };
+            });
+            
+            // Create workbook
+            const ws = XLSX.utils.json_to_sheet(data);
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, ws, 'Orders');
+            
+            // Add summary sheet
+            const summary = [
+                { 'Metric': 'Total Orders', 'Value': currentOrders.length },
+                { 'Metric': 'Total Revenue', 'Value': currentOrders.reduce((sum, order) => sum + order.total, 0) },
+                { 'Metric': 'Completed Orders', 'Value': currentOrders.filter(o => o.status === 'Completed').length },
+                { 'Metric': 'Placed Orders', 'Value': currentOrders.filter(o => o.status === 'Placed').length },
+                { 'Metric': 'Processing Orders', 'Value': currentOrders.filter(o => o.status === 'Processing').length },
+                { 'Metric': 'On Hold Orders', 'Value': currentOrders.filter(o => o.status === 'Hold').length },
+                { 'Metric': 'Date Range', 'Value': document.getElementById('dateRangeSelect').value },
+                { 'Metric': 'Generated On', 'Value': new Date().toLocaleString() }
+            ];
+            
+            const ws2 = XLSX.utils.json_to_sheet(summary);
+            XLSX.utils.book_append_sheet(wb, ws2, 'Summary');
+            
+            // Save file
+            XLSX.writeFile(wb, `order-report-${new Date().toISOString().split('T')[0]}.xlsx`);
+        }
+    </script>
+</body>
+</html>
