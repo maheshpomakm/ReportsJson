@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Window - Dashboard Integration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .controls {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .control-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+            font-weight: bold;
+        }
+        input, button {
+            padding: 8px 12px;
+            margin: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border: none;
+            margin-left: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .status {
+            background: #e9ecef;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #007bff;
+        }
+        iframe {
+            width: 100%;
+            height: 800px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: white;
+        }
+        .message-log {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            max-height: 200px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard Iframe Integration</h1>
+        
+        <!-- Configuration Controls -->
+        <div class="controls">
+            <h3>Dashboard Configuration</h3>
+            
+            <div class="control-group">
+                <label for="clientId">Client ID:</label>
+                <input type="text" id="clientId" value="T1747158591717" placeholder="e.g., T1747158591717">
+            </div>
+            
+            <div class="control-group">
+                <label for="authToken">Auth Token:</label>
+                <input type="text" id="authToken" value="" placeholder="Optional: Bearer token">
+            </div>
+            
+            <div class="button-group">
+                <button onclick="sendConfiguration()">Configure Dashboard</button>
+                <button onclick="refreshDashboard()">Refresh Data</button>
+            </div>
+        </div>
+
+        <!-- Status Display -->
+        <div class="status" id="status">
+            Waiting for iframe to load...
+        </div>
+
+        <!-- Dashboard Iframe -->
+        <iframe 
+            id="dashboardFrame" 
+            src="./ReportDeck.html"
+            title="Order Dashboard">
+        </iframe>
+
+        <!-- Message Log -->
+        <div class="message-log" id="messageLog">
+            <strong>Message Log:</strong><br>
+        </div>
+    </div>
+
+    <script>
+        let isIframeReady = false;
+        let isConfigured = false;
+
+        // Listen for messages from iframe
+        window.addEventListener('message', function(event) {
+            // In production, validate event.origin for security
+            // if (event.origin !== "https://yourdomain.com") return;
+            
+            const data = event.data;
+            logMessage('Received from iframe: ' + JSON.stringify(data));
+            
+            switch(data.type) {
+                case 'IFRAME_READY':
+                    isIframeReady = true;
+                    updateStatus('Iframe loaded and ready for configuration', 'success');
+                    break;
+                    
+                case 'IFRAME_CONFIG_RECEIVED':
+                    isConfigured = true;
+                    updateStatus(`Configuration sent successfully. Client: ${data.config.clientId}`, 'success');
+                    break;
+                    
+                case 'IFRAME_DATA_LOADED':
+                    updateStatus(`Data loaded: ${data.totalOrders} total orders, ${data.filteredOrders} filtered`, 'info');
+                    break;
+                    
+                case 'IFRAME_FILTER_APPLIED':
+                    updateStatus(`Filter applied: ${data.filter || 'none'} - ${data.resultCount} results`, 'info');
+                    break;
+                    
+                case 'IFRAME_ERROR':
+                    updateStatus(`Error in dashboard: ${data.error}`, 'error');
+                    break;
+                    
+                default:
+                    logMessage('Unknown message type: ' + data.type);
+            }
+        });
+
+        // Send configuration to iframe
+        function sendConfiguration() {
+            if (!isIframeReady) {
+                alert('Please wait for iframe to load');
+                return;
+            }
+
+            const clientIdValue = document.getElementById('clientId').value;
+            const authTokenValue = document.getElementById('authToken').value;
+
+            if (!clientIdValue) {
+                alert('Please enter a Client ID');
+                return;
+            }
+
+            const config = {
+                type: 'IFRAME_CONFIG',
+                clientId: clientIdValue,
+                authToken: authTokenValue || null
+            };
+
+            const iframe = document.getElementById('dashboardFrame');
+            iframe.contentWindow.postMessage(config, '*');
+            
+            logMessage('Sent configuration: ' + JSON.stringify(config));
+            updateStatus('Configuration sent to dashboard...', 'info');
+        }
+
+        // Refresh dashboard data
+        function refreshDashboard() {
+            if (!isConfigured) {
+                alert('Please configure the dashboard first');
+                return;
+            }
+
+            const refreshData = {
+                type: 'IFRAME_REFRESH'
+            };
+
+            const iframe = document.getElementById('dashboardFrame');
+            iframe.contentWindow.postMessage(refreshData, '*');
+            
+            logMessage('Refresh requested');
+            updateStatus('Refreshing dashboard data...', 'info');
+        }
+
+        // Update status display
+        function updateStatus(message, type = 'info') {
+            const statusEl = document.getElementById('status');
+            statusEl.textContent = message;
+            
+            // Remove existing classes
+            statusEl.className = 'status';
+            
+            // Add type class
+            if (type === 'success') {
+                statusEl.style.borderLeftColor = '#28a745';
+                statusEl.style.backgroundColor = '#d4edda';
+                statusEl.style.color = '#155724';
+            } else if (type === 'error') {
+                statusEl.style.borderLeftColor = '#dc3545';
+                statusEl.style.backgroundColor = '#f8d7da';
+                statusEl.style.color = '#721c24';
+            } else {
+                statusEl.style.borderLeftColor = '#007bff';
+                statusEl.style.backgroundColor = '#e9ecef';
+                statusEl.style.color = '#495057';
+            }
+        }
+
+        // Log messages
+        function logMessage(message) {
+            const logEl = document.getElementById('messageLog');
+            const timestamp = new Date().toLocaleTimeString();
+            logEl.innerHTML += `<br>[${timestamp}] ${message}`;
+            logEl.scrollTop = logEl.scrollHeight;
+        }
+
+        // Auto-configure when page loads (for demo purposes)
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                if (isIframeReady) {
+                    sendConfiguration();
+                }
+            }, 1000);
+        });
+
+        // Example of programmatic API calls
+        function exampleProgrammaticCalls() {
+            // Example 1: Configure with specific settings
+            const config1 = {
+                type: 'IFRAME_CONFIG',
+                clientId: 'CLIENT123',
+                authToken: 'your-auth-token-here'
+            };
+
+            // Send these messages to iframe:
+            // iframe.contentWindow.postMessage(config1, '*');
+        }
+    </script>
+</body>
+</html>
