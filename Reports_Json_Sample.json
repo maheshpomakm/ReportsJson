@@ -4,7 +4,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1710926716",
             "table": 11,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Soda",
                 "Fries"
@@ -38,7 +38,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1713289656",
             "table": 2,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Pizza",
                 "Burger"
@@ -56,7 +56,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1710620853",
             "table": 1,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Salad",
                 "Soda",
@@ -98,7 +98,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1711833116",
             "table": 15,
-            "status": "Placed",
+            "status": "Ready",
             "items": [
                 "Burger"
             ],
@@ -114,7 +114,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1716301328",
             "table": 9,
-            "status": "Placed",
+            "status": "Served",
             "items": [
                 "Pizza",
                 "Salad",
@@ -138,7 +138,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1712218776",
             "table": 13,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Soda",
                 "Fries"
@@ -156,7 +156,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1715016024",
             "table": 4,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Burger",
                 "Fries",
@@ -194,7 +194,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1711200388",
             "table": 1,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Soda",
                 "Fries"
@@ -212,7 +212,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1715367198",
             "table": 18,
-            "status": "Placed",
+            "status": "Ready",
             "items": [
                 "Pizza",
                 "Salad",
@@ -232,7 +232,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1716616216",
             "table": 15,
-            "status": "Placed",
+            "status": "Served",
             "items": [
                 "Burger",
                 "Salad",
@@ -252,7 +252,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1714418522",
             "table": 2,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Salad",
                 "Fries",
@@ -290,7 +290,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1712435759",
             "table": 18,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Burger",
                 "Fries"
@@ -308,7 +308,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1716508930",
             "table": 15,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Salad",
                 "Soda",
@@ -328,7 +328,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1715206267",
             "table": 11,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Pizza",
                 "Burger",
@@ -348,7 +348,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1714073367",
             "table": 14,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Salad"
             ],
@@ -384,7 +384,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1713589438",
             "table": 2,
-            "status": "Placed",
+            "status": "Ready",
             "items": [
                 "Salad",
                 "Pizza"
@@ -422,7 +422,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1714902640",
             "table": 12,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Soda",
                 "Salad"
@@ -440,7 +440,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1710787165",
             "table": 15,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Pizza",
                 "Burger"
@@ -458,7 +458,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1716353380",
             "table": 2,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Fries",
                 "Soda",
@@ -478,7 +478,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1716298284",
             "table": 20,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Burger"
             ],
@@ -494,7 +494,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1716315259",
             "table": 17,
-            "status": "Placed",
+            "status": "Served",
             "items": [
                 "Burger",
                 "Pizza",
@@ -514,7 +514,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1711749830",
             "table": 4,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Fries"
             ],
@@ -552,7 +552,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1714407865",
             "table": 16,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Burger",
                 "Soda"
@@ -570,7 +570,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1715696120",
             "table": 15,
-            "status": "Placed",
+            "status": "Ready",
             "items": [
                 "Salad"
             ],
@@ -586,7 +586,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1712282052",
             "table": 4,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Salad",
                 "Pizza"
@@ -604,7 +604,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1713508129",
             "table": 17,
-            "status": "Placed",
+            "status": "Served",
             "items": [
                 "Burger",
                 "Pizza"
@@ -622,7 +622,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1714771484",
             "table": 5,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Salad",
                 "Burger"
@@ -640,7 +640,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1715822394",
             "table": 9,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Salad",
                 "Fries"
@@ -658,7 +658,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1711200984",
             "table": 14,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Pizza",
                 "Soda",
@@ -680,7 +680,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1712217036",
             "table": 2,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Pizza",
                 "Salad",
@@ -722,7 +722,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1713915875",
             "table": 12,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Pizza",
                 "Fries",
@@ -780,7 +780,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1715690623",
             "table": 14,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Soda",
                 "Fries",
@@ -800,7 +800,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1715006934",
             "table": 10,
-            "status": "Placed",
+            "status": "Ready",
             "items": [
                 "Burger"
             ],
@@ -816,7 +816,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1711718146",
             "table": 14,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Burger",
                 "Pizza"
@@ -852,7 +852,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1716762391",
             "table": 20,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Burger"
             ],
@@ -868,7 +868,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1711762193",
             "table": 12,
-            "status": "Placed",
+            "status": "Served",
             "items": [
                 "Burger",
                 "Pizza"
@@ -886,7 +886,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1710609363",
             "table": 2,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Pizza"
             ],
@@ -920,7 +920,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1712711082",
             "table": 12,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Salad"
             ],
@@ -992,7 +992,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1713175110",
             "table": 1,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Fries",
                 "Burger"
@@ -1010,7 +1010,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1716301399",
             "table": 4,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Salad",
                 "Pizza"
@@ -1028,7 +1028,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1713835697",
             "table": 1,
-            "status": "Placed",
+            "status": "Ready",
             "items": [
                 "Fries"
             ],
@@ -1044,7 +1044,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1713075276",
             "table": 4,
-            "status": "Placed",
+            "status": "Served",
             "items": [
                 "Soda",
                 "Fries"
@@ -1062,7 +1062,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1713876067",
             "table": 9,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Soda",
                 "Burger",
@@ -1102,7 +1102,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1712217112",
             "table": 11,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Salad"
             ],
@@ -1118,7 +1118,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1711677242",
             "table": 19,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Pizza"
             ],
@@ -1168,7 +1168,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1711956578",
             "table": 12,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Burger"
             ],
@@ -1184,7 +1184,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1712217730",
             "table": 8,
-            "status": "Placed",
+            "status": "Ready",
             "items": [
                 "Fries"
             ],
@@ -1200,7 +1200,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1715423851",
             "table": 12,
-            "status": "Placed",
+            "status": "Served",
             "items": [
                 "Fries",
                 "Pizza"
@@ -1218,7 +1218,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1712497042",
             "table": 11,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Soda",
                 "Burger",
@@ -1240,7 +1240,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1715881475",
             "table": 1,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Soda",
                 "Pizza",
@@ -1260,7 +1260,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1713589993",
             "table": 10,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Fries",
                 "Soda"
@@ -1278,7 +1278,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1711200929",
             "table": 18,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Salad",
                 "Burger",
@@ -1298,7 +1298,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1716182962",
             "table": 16,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Soda",
                 "Salad",
@@ -1318,7 +1318,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1714421947",
             "table": 15,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Burger",
                 "Fries",
@@ -1374,7 +1374,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1715367018",
             "table": 13,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Soda",
                 "Burger",
@@ -1396,7 +1396,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1715106950",
             "table": 2,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Pizza",
                 "Fries"
@@ -1432,7 +1432,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1714652431",
             "table": 12,
-            "status": "Placed",
+            "status": "Ready",
             "items": [
                 "Burger",
                 "Fries"
@@ -1450,7 +1450,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1716353381",
             "table": 10,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Burger",
                 "Fries"
@@ -1468,7 +1468,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1712217758",
             "table": 1,
-            "status": "Placed",
+            "status": "Served",
             "items": [
                 "Fries",
                 "Burger",
@@ -1522,7 +1522,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1713437145",
             "table": 1,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Salad"
             ],
@@ -1538,7 +1538,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1711718131",
             "table": 17,
-            "status": "Placed",
+            "status": "Ready",
             "items": [
                 "Pizza",
                 "Salad",
@@ -1574,7 +1574,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1712079053",
             "table": 1,
-            "status": "Placed",
+            "status": "Served",
             "items": [
                 "Fries"
             ],
@@ -1590,7 +1590,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1711200938",
             "table": 18,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Burger",
                 "Soda",
@@ -1646,7 +1646,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1716301323",
             "table": 16,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Burger"
             ],
@@ -1662,7 +1662,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1712217684",
             "table": 2,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Burger",
                 "Salad",
@@ -1684,7 +1684,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1716301402",
             "table": 15,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Pizza",
                 "Soda",
@@ -1706,7 +1706,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1711201010",
             "table": 5,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Fries",
                 "Burger",
@@ -1726,7 +1726,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1715423851",
             "table": 17,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Soda"
             ],
@@ -1742,7 +1742,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1714081039",
             "table": 19,
-            "status": "Placed",
+            "status": "Ready",
             "items": [
                 "Burger"
             ],
@@ -1758,7 +1758,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1717234567",
             "table": 3,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Pizza",
                 "Soda"
@@ -1776,7 +1776,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1717598765",
             "table": 8,
-            "status": "Placed",
+            "status": "Served",
             "items": [
                 "Burger",
                 "Fries"
@@ -1794,7 +1794,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1718012345",
             "table": 16,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Salad"
             ],
@@ -1828,7 +1828,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1719210987",
             "table": 11,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Fries",
                 "Soda"
@@ -1866,7 +1866,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1720543219",
             "table": 19,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Pizza",
                 "Salad",
@@ -1886,7 +1886,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1721098765",
             "table": 5,
-            "status": "Completed",
+            "status": "Paid",
             "items": [
                 "Burger"
             ],
@@ -1902,7 +1902,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1721567890",
             "table": 13,
-            "status": "Hold",
+            "status": "Preparing",
             "items": [
                 "Soda",
                 "Fries"
@@ -1920,7 +1920,7 @@
             "clientId": "T1747158591717",
             "orderId": "ORD1722234567",
             "table": 20,
-            "status": "Placed",
+            "status": "Ready",
             "items": [
                 "Pizza",
                 "Burger",
